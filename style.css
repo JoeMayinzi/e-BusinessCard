@@ -1,0 +1,134 @@
+body{
+    background: #E5E5E5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.enregistrement{
+    position: absolute;
+    
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 0 50px;
+    background: #377bbc;
+   color: #fff;
+   
+}
+
+.enregistrement h2{
+    font-size: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+    height: 25px;
+    border: 5px;
+    margin: 10px 0;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 45px;
+    border-color: #fff;
+}
+
+input[type="submit"]:hover{
+    transition: .3s;
+    transform: scale(1.4);
+}
+
+.business-card{
+    border: 5px solid #ccc;
+    width: 310px;
+    height: 600px;
+   
+}
+
+.business-cardContainer{
+    text-align: center;
+    margin: 10px;
+}
+
+.first-div-vide{
+    display: block;
+    border: 10px solid #3b70e0;
+    border-radius: 100%;
+    height: 250px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-container{
+    display: block;
+    width: 80%;
+    height: 200px;
+    border: 2px solid rgb(6, 6, 155);
+    border-radius: 100%;
+    margin: 10px;
+   margin: 25px 23px;
+}
+
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.id{
+    margin: 20px 0;
+}
+
+.id div{
+    margin: 5px 0;
+}
+
+.nom span{
+    font-size: 26px;
+    color: #282059;
+    font-weight: bold;
+}
+
+.poste span{
+    color: #a33ee2;
+    font-size: 20px;
+}
+
+.matricule{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+
+    color: #a33ee2;
+}
+
+.ville{
+    font-size: 20px;
+}
+
+.QRcode img{
+    width: 50px;
+    margin-top: -10px;
+}
+
+.cardAnimation1{
+    margin-left: 350px;
+    transition: .3s;
+}
+
+.cardAnimation2{
+    margin-right: 350px;
+    transition: .3s;
+}

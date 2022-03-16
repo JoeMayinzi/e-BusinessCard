@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="enregistrement">
+            <h2>Enregistrez-vous</h2>
+            <form action="#" class="form">
+                <label>
+                    Photo <br>
+                    <input type="file" id="picture">
+                <label><br>
+                <label>
+                    Prenom <br>
+                    <input type="text" id="firstName">
+                <label><br>
+                    Nom <br>
+                    <input type="text" id="lastName">
+                </label><br>
+                <label>
+                    Poste <br>
+                    <input type="text" id="poste">
+                </label><br>
+                <label>
+                    Matricule <br>
+                    <input type="number" id="matri">
+                </label><br>
+                <label>
+                    Adreese email <br>
+                    <input type="email" id="email">
+                </label><br>
+                <label>
+                    Ville <br>
+                    <input type="text" id="town">
+                </label><br>
+                <input type="submit" value="S'enregistrer" id="signUp">
+            </form>
+        </div>
+        <div class="business-card">
+                <div class="business-cardContainer">
+                    <img src="./img/logo.png" alt="">
+               
+                <div class="first-div-vide">                  
+                    <div class="img-container"><img src="./img/img1.jpg" alt=""> </div>
+                </div>
+                <div class="id">
+                    <div class="nom">
+                        <span class="spanFirstName"></span>
+                        <span class="spanLastName"></span>
+                    </div>
+                    <div class="poste">
+                        <span></span>
+                    </div>
+                    <div class="matricule">
+                        <span>N° Matricule : </span>
+                        <span class="numbertMatri"></span>
+                    </div>
+                    <div class="email">
+                        <span></span>
+                    </div>
+                    <div class="ville">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="QRcode">
+                   <img src="./img/QR.png" alt="">
+                </div>
+               </div>
+                </div>
+            
+        </div>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
