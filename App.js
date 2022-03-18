@@ -22,22 +22,19 @@ console.log(firstNameContent, lastNameContent,posteContent, emailContent, matriC
 
 // FUNCTION
 let submiControler = ()=>{
+    //empty inputs after submission the information submission
     firstName.value = "";
     lastName.value = "";
     poste.value = "";
     matri.value = "";
     email.value = "";
     city.value = "";
-    if(firstName.value === ""){
-        let inputs = document.querySelectorAll("input");
-        for(i = 0; i < inputs.length; i++){
-            console.log(inputs[i])
-        }
-    }
+    // Treatment of the informations
 }
 
 button.addEventListener("submit", (e)=>{
     e.preventDefault()
+    //Informations affection to the card elementens after the user click on the submit button
     firstNameContent.textContent = firstName.value;
     lastNameContent.textContent = lastName.value;
     posteContent.textContent = poste.value;
